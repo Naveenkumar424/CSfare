@@ -1,0 +1,23 @@
+input{
+    visibility: hidden;
+}
+
+label{
+    background-color: black;
+    color: aliceblue;
+}
+
+.tube-light{
+    height:5vh;
+    width:10vw;
+    border: 2px solid black;
+}
+
+.box{
+    height:50vh;
+    width:70vw;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-top: 10%;
+}

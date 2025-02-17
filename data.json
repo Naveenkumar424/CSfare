@@ -1,5 +1,6 @@
 {
-    "AND_gate": {
+    ":AND": {
+      "name":"AND",
       "definition": "A logic gate that outputs true only if all its inputs are true.",
       "symbol": "D",
       "truth_table": [
@@ -9,7 +10,8 @@
         {"inputA": 1, "inputB": 1, "output": 1}
       ]
     },
-    "OR_gate": {
+    ":OR": {
+      "name":"OR",
       "definition": "A logic gate that outputs true if at least one of its inputs is true.",
       "symbol": "1",
       "truth_table": [
@@ -19,7 +21,8 @@
         {"inputA": 1, "inputB": 1, "output": 1}
       ]
     },
-    "NOT_gate": {
+    ":NOT": {
+      "name":"NOT",
       "definition": "A logic gate that outputs the opposite value of its input.",
       "symbol": "~",
       "truth_table": [
@@ -27,7 +30,8 @@
         {"input": 1, "output": 0}
       ]
     },
-    "NAND_gate": {
+    ":NAND": {
+      "name":"NAND",
       "definition": "A logic gate that outputs false only if all its inputs are true.",
       "symbol": "𝑁",
       "truth_table": [
@@ -37,7 +41,8 @@
         {"inputA": 1, "inputB": 1, "output": 0}
       ]
     },
-    "NOR_gate": {
+    ":NOR": {
+      "name":"NOR",
       "definition": "A logic gate that outputs true only if all its inputs are false.",
       "symbol": "↓",
       "truth_table": [
@@ -47,7 +52,8 @@
         {"inputA": 1, "inputB": 1, "output": 0}
       ]
     },
-    "XOR_gate": {
+    ":XOR": {
+      "name":"XOR",
       "definition": "A logic gate that outputs true if and only if one of its inputs is true.",
       "symbol": "⊕",
       "truth_table": [
@@ -57,7 +63,8 @@
         {"inputA": 1, "inputB": 1, "output": 0}
       ]
     },
-    "XNOR_gate": {
+    ":XNOR": {
+      "name":"XNOR",
       "definition": "A logic gate that outputs true if and only if both of its inputs are the same.",
       "symbol": "⊙",
       "truth_table": [

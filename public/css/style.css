@@ -1,0 +1,17 @@
+.header,.footer{
+    background-color: #DC3545 !important;
+    height:6vh;
+    width:100vw;
+}
+
+.gate{
+    height:5vh;
+    width:10vw;
+}
+
+.content-display{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: larger;
+    font-family: sans-serif;
+}

@@ -1,0 +1,25 @@
+<%-include("includes/header")%>
+<div class="content-display">
+    <p>This page provides a brief overview of <b><%=data['name']%></b> gate</p>
+    <p>which is defined by:
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%=data['definition']%></p>
+    </p>
+    <p>And the symbol used is <b><%=data['symbol']%></b></p>
+    <p>The truth table is as below:</p>
+    <table border="4">
+        <tr border="1">
+            <th>Input A</th>
+            <th>Input B</th>
+            <th>Output</th>
+        </tr>
+        <% for(let val of data['truth_table']){%>
+            <tr>
+                <td><%=val['inputA']%></td>
+                <td><%=val['inputB']%></td>
+                <td><%=val['output']%></td>
+            </tr>
+        <% } %>
+    </table>
+    <a href="/test/<%=data['name']%>" class="btn btn-outline-danger">Test</a>
+</div>
+<%-include("includes/footer")%>
